@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+    color: #2a454b;
+
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, hsla(205, 46%, 10%, 1) 0%, #2a454b 50%, rgb(41, 72, 97) 100%);
+    padding: 10px;
+}
+
+.do-box {
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+
+.do-box h2 {
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.do-box img {
+    width: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #e2dfdf;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+#search-field {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 10px
+}
+
+.cssbuttons-io-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .2em;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    padding: .5em 1.5em;
+    color: white;
+    background: linear-gradient(0deg, rgb(0, 150, 60), rgb(100, 250, 150));
+    border: none;
+    outline: none;
+    border-bottom: 3px solid rgb(0, 130, 40);
+    box-shadow: 0 .5em .5em -.4em rgb(0, 0, 0, .5);
+    letter-spacing: 0.08em;
+    border-radius: 20em;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.cssbuttons-io-button:hover {
+    filter: brightness(1.2);
+    color: rgb(0, 0, 0, .5);
+}
+
+.cssbuttons-io-button:active {
+    transition: 0s;
+}
+
+ul li{
+    list-style: none;
+    font-size: 18px;
+    padding: 18px 8px 12px 40px;
+    cursor: pointer;
+    position: relative;
+}
+
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(/pictures/icons8-unchecked-checkbox-50.png);
+    background-size: cover;
+    background-position: center;
+    top: 17px;
+    left: 5px;
+}
+
+ul li.checked{
+    color: #2a454b;
+    text-decoration: line-through;
+}
+
+ul li.checked::before{
+    background-image: url(/pictures/icons8-checked-checkbox-50.png);
+    background-size: cover;
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    top: 10px;
+    font-size: 22px;
+    line-height: 40px;
+    text-align: center;
+}
+
+ul li span:hover{
+    background-color: #e2dfdf;
+    border-radius: 50%;
+}

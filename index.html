@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="icon" href="/pictures/to-do.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="do-box">
+            <h2>To-Do List <img src="pictures/to-do-list.png"></h2>
+            <div class="row">
+                <input id="search-field" placeholder="add your task....." type="text">
+                <button title="Add" class="cssbuttons-io-button">
+                    <svg height="25" width="25" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z" fill="currentColor"></path>
+                    </svg>
+                    <span>Add</span>
+                </button>
+            </div>
+            <ul id="task-container">
+
+            </ul>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
