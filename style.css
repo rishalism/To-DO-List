@@ -100,7 +100,7 @@ ul li::before{
     height: 28px;
     width: 28px;
     border-radius: 50%;
-    background-image: url(/pictures/icons8-unchecked-checkbox-50.png);
+    background-image: url(pictures/icons8-unchecked-checkbox-50.png);
     background-size: cover;
     background-position: center;
     top: 17px;
@@ -113,7 +113,7 @@ ul li.checked{
 }
 
 ul li.checked::before{
-    background-image: url(/pictures/icons8-checked-checkbox-50.png);
+    background-image: url(pictures/icons8-checked-checkbox-50.png);
     background-size: cover;
 }
 
