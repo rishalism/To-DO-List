@@ -86,7 +86,7 @@
     transition: 0s;
 }
 
-ul li{
+ul li {
     list-style: none;
     font-size: 18px;
     padding: 18px 8px 12px 40px;
@@ -94,7 +94,7 @@ ul li{
     position: relative;
 }
 
-ul li::before{
+ul li::before {
     content: '';
     position: absolute;
     height: 28px;
@@ -107,17 +107,17 @@ ul li::before{
     left: 5px;
 }
 
-ul li.checked{
+ul li.checked {
     color: #2a454b;
     text-decoration: line-through;
 }
 
-ul li.checked::before{
+ul li.checked::before {
     background-image: url(pictures/icons8-checked-checkbox-50.png);
     background-size: cover;
 }
 
-ul li span{
+ul li span {
     position: absolute;
     right: 0;
     width: 40px;
@@ -128,7 +128,7 @@ ul li span{
     text-align: center;
 }
 
-ul li span:hover{
+ul li span:hover {
     background-color: #e2dfdf;
     border-radius: 50%;
 }
